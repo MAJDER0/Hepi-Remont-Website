@@ -1,0 +1,563 @@
+html{
+	
+	
+	scroll-behavior:smooth;
+	
+}
+
+body{
+	
+	height: 100%;
+	margin: 0;
+	background-color: rgba(253, 250, 240, 1);
+	background-repeat:repeat;
+	color: #efefef;
+	font-family: 'Cinzel', serif;
+	font-size: 17px;
+}
+
+
+
+h1.logo{
+	
+	font-size: 44px;
+	font-weight: 700;
+	color: #ddd;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-right: 140px;
+	margin-botom: 5px;
+
+
+
+
+}
+
+ .navstyl{
+
+	text-align: center;
+	
+}
+
+.divmenu{
+	
+}
+
+.menu{
+	
+	
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	padding-top:0px;
+	font-size: 24px;
+	min-height: 38px;
+	line-height: 200%;
+
+}
+
+.menu>li{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px solid black;
+	font-weight: 900;
+}
+
+.menu > li:first-child{
+		
+	border-left: 1px solid black;
+		
+}
+
+
+.menu a{
+	
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+
+.menu a:hover{
+	
+	color: white;	
+	
+	
+}
+
+
+
+.info{
+	
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+	background-color: rgba(25, 29, 33, 0.9);
+	
+}
+
+
+.bg-color1{
+	
+	background-color: rgba(253, 250, 240, 1);
+	
+
+	
+}
+
+.bg-color1>h3{
+	
+	
+	text-align:center;
+	
+}
+
+
+
+.bg-color{
+	
+	
+	background-color: rgba(253, 250, 240, 1);
+	
+}
+
+.index>p{
+	
+	font-size: 23px;
+	line-height: 1cm;
+	
+}
+
+.index>p>i{
+	
+	font-size: 35px;
+
+	
+}
+
+
+
+
+.index1>b{
+	
+text-align: right;
+
+}
+
+
+.indexfooter{
+	
+	margin-top: auto;
+	
+}
+
+.container{
+	
+	width:100%;
+	max-width: 100%;
+	
+}
+
+
+.divback{
+	
+	background-image: url('img/zdj1.jpg');
+	background-position: center;
+	
+	
+}
+
+
+.divback2{
+	
+
+	position:solid;
+	
+}
+
+.divback2>img{
+	
+	width: 100%;
+	height:70%;
+	
+	
+}
+
+
+main{
+	
+	background-color: rgba(253, 250, 240, 1);
+}
+
+
+
+ul {
+
+list-style-type: none;
+
+}
+
+
+.maintekst{
+	
+	
+	color:black;
+	background-color:white;	
+	text-align:center;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top: 60px;
+	animation: fadeIn 2s;
+	
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+h1{
+	margin-bottom:0px;
+	
+}
+
+.animacja{
+	
+	  height:auto;
+	  background-color: rgb(60, 179, 113);
+	  clip-path: polygon(0 0%, 100% 0, 75% 100%, 0% 100%); 
+	  animation: mymove 0s; 
+	  animation-delay: 0s;  
+	  animation-fill-mode: forwards;
+	  transition: all .4s ease-in-out; 
+}
+
+
+
+.animacja:hover{
+	
+	background-color: rgb(60, 179, 106); 
+	transform: scale(1.05);
+
+}
+
+.whyme
+{
+	background-color:none;
+	width:83%;
+}
+
+.container-fluid>.container-fluid
+{
+margin:0px;	
+}
+
+
+ @keyframes mymove { 
+   from {left: 0px; } 
+   to {left: 70px; } 
+
+ } 
+ 
+ 
+ .cogwarantuje
+ {
+	background-color:none;
+	width: 100%;
+	margin:0px;
+ }
+ 
+.cogwarantuje>i
+  
+  {
+	text-align:center;
+  }
+  
+  .cogwarantuje>b
+  
+  {
+	text-align:center;
+  }
+  
+    .cogwarantuje>p
+  
+  {
+	text-align:center;
+  }
+  
+  
+.animacja2{
+	
+	height:auto;
+	background-color: rgb(60, 179, 113);
+	clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 25% 0%);
+	text-align:center;
+	animation: mymove2 0s;
+	animation-delay: 0s; 
+	animation-fill-mode: forwards;
+	transition: all .4s ease-in-out; 
+
+}
+
+.animacja2:hover{
+	
+	background-color: rgb(60, 179, 106); 
+	transform: scale(1.05);
+}
+
+
+  @keyframes mymove2 {  
+
+   from {right: 0px; }  
+    to {right: 70px; }    
+  }  
+
+
+
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.carousel {
+  width: auto;
+  height: 100vh;
+  position: relative;
+}
+
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 1250ms opacity ease-in-out;
+  transition-delay: 200ms;
+}
+
+.slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color:rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  border-radius: .25rem;
+  padding: 0 .5rem;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: black;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 1rem;
+}
+
+
+.lokalizacja
+{
+	text-align:center;
+	background-color: rgb(60, 179, 113);
+	clip-path: circle(43%); 
+	border:solid;
+	border-color:rgb(60, 179, 113);
+	border-radius:10px;
+
+}
+
+
+.lokalizacja:hover
+{
+		background-color: rgb(60, 179, 106);
+		clip-path: circle(62%); 
+		transition: 2s;
+		ransition-timing-function: linear;
+	
+}
+ #mapa 
+ { 
+	border:solid;
+	border-radius:30px; 
+	clip-path: circle(35%); 
+ } 
+ 
+ #mapa:hover
+ { 
+	clip-path: circle(95%); 
+	transition: 3s;
+	ransition-timing-function: linear;
+ } 
+ 
+ 
+.lokalizacja>b
+{
+	font-size: 26px;
+	line-height: 1cm;
+
+}
+
+.kontakt
+{
+	text-align: center;
+	background-color: rgb(60, 179, 113); 
+	clip-path: circle(43%); 
+	border:solid;
+	border-color:rgb(60, 179, 113);
+
+}
+
+
+.kontakt:hover
+{
+		background-color: rgb(60, 179, 106); 
+		clip-path: circle(53%); 
+		transition: 2s;
+		ransition-timing-function: linear;
+	
+}
+
+
+.wizytowka
+{
+	margin-bottom:10%;
+	/* margin-top:10%; */
+	clip-path: circle(45%); 
+	
+}
+
+ .wizytowka:hover
+ { 
+	clip-path: circle(95%); 
+	transition: 3s;
+	ransition-timing-function: linear;
+ } 
+
+.kontakt>b
+{
+	font-size: 26px;
+	line-height: 1cm;
+
+
+}
+
+
+.arrow-scroll
+{
+	
+	position:relative;
+	height:4em;
+}
+
+.arrow
+{
+	
+	border: solid white;
+	border-width: 0 5px 5px 0;
+	display: inline-block;
+	padding: 12px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform:
+	translateX(-50%)
+	rotate(45deg);
+}
+
+.arrow:nth-child(2)
+{
+	animation:
+	arrow1 1.5s
+	ease-in-out infinite;
+	
+}
+
+.arrow:nth-child(3)
+{
+	animation:
+	arrow2 1.5s
+	ease-in-out infinite;
+	
+}
+
+
+@keyframes scroll
+{
+	0%
+	{
+		bottom:80%;
+		opacity:1;
+	}
+	100%
+	{
+		bottom:20%;
+		opacity:0;
+	}
+	
+	
+}
+
+@keyframes arrow1
+{
+
+	100%
+	{
+		opacity:0%;
+		top:100%;
+	}
+	
+	
+}
+
+@keyframes arrow2
+{
+
+	100%
+	{
+		opacity:0%;
+		top:50%;
+	}
+	
+	
+}
+
+
+
