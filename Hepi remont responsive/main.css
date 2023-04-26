@@ -517,6 +517,10 @@ margin:0px;
 	ease-in-out infinite;
 	
 }
+.helper
+{
+	height: 33.5em;
+}
 
 
 @keyframes scroll
